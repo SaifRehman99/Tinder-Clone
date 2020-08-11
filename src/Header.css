@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 40px;
+  width: 80px;
+
+  /* keep the aspect ratio while maintaining the size */
+  object-fit: contain;
+}
+
+.header__icon {
+  padding: 30px;
+}
